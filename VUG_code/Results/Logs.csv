@@ -1,0 +1,10 @@
+Method,Time,Dataset,QueryFile,|V|,|E|,LoadDataTime,QueryNumber,TimeCost
+STPG,2024-11-25 10:0:17,email-Eu-core-temporal.txt,email-Eu-core-temporal_10.query,1005,332334,249.68,1000,667.93
+STPG,2024-11-25 10:5:26,sx-mathoverflow.txt,sx-mathoverflow_20.query,88581,506550,403.30,1000,764.07
+STPG,2024-11-25 10:6:40,sx-askubuntu.txt,sx-askubuntu_20.query,515281,964437,794.63,1000,4947.76
+STPG,2024-11-25 10:7:20,sx-superuser.txt,sx-superuser_20.query,567316,1443339,1215.85,1000,3605.82
+STPG,2024-11-25 10:9:15,wiki_ru.txt,wiki_ru_25.query,457018,2282055,1835.14,1000,3685.82
+STPG,2024-11-25 10:9:42,wiki_de.txt,wiki_de_25.query,519404,6729794,5613.26,1000,16938.21
+STPG,2024-11-25 10:10:53,wiki-talk-temporal.txt,wiki-talk-temporal_20.query,1140149,7833140,6419.50,1000,32513.04
+STPG,2024-11-25 10:12:18,flickr.txt,flickr_10.query,2302926,33140017,30919.51,1000,77446.14
+STPG,2024-11-25 10:30:53,TestGraph.txt,TestGraph.query,8,14,0.03,1,0.02
