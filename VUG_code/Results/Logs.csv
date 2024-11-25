@@ -1,0 +1,5 @@
+Method,Time,Dataset,QueryFile,|V|,|E|,LoadDataTime,QueryNumber,TimeCost
+STPG,2024/11/25 10:00,email-Eu-core-temporal.txt,email-Eu-core-temporal_10.query,1005,332334,249.68,1000,667.93
+STPG,2024/11/25 10:05,sx-mathoverflow.txt,sx-mathoverflow_20.query,88581,506550,403.3,1000,764.07
+STPG,2024/11/25 10:06,sx-askubuntu.txt,sx-askubuntu_20.query,515281,964437,794.63,1000,4947.76
+STPG,2024/11/25 10:30,TestGraph.txt,TestGraph.query,8,14,0.03,1,0.02
