@@ -13,5 +13,40 @@ In addition, "Datasets/TestGraph.txt" is the example that appears in our paper.
 
 If you want to use other datasets, please copy them into "Datasets/".
 
+## Generate Queries
 
+Usage of query generation program in "Datasets/GenQuery/":
 
+```C++
+cd Datasets/GenQuery/
+make clean
+make
+./GenerateQueries <Graph File> <Number of queries>
+cd ../../
+```
+
+- Graph File: input graph filename in "Datasets/"
+- Number of queries: the number of random queries
+
+After executions, generated query files are stored as "Datasets/GenQuery/{Graph File}.query"
+
+## Execute VUG
+
+Usage of VUG main program in "TSPG/":
+
+```C++
+cd TSPG/
+make clean
+make
+./Run <Graph File> <Query File>
+cd ../
+```
+
+- Graph File: input graph filename in "Datasets/"
+- Query File: input query filename in "Datasets/"
+
+After executions, the logs including running time are written in "Results/Logs.csv"
+
+The output edges (number of edges,all edge ids) for input queries are stored in "Results/Answers/{Query File}.answer"
+
+Statistics (space cost, number of quick upper-bound edges, number of tight upper-bound edges and number of exact edges) for answering each query are stored in "Results/Statistics/{Query File}.csv"
