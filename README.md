@@ -9,8 +9,6 @@ To run the codes, please read the following instructions.
 
 We provide three datasets in the folder "Datasets/" for testing, D1 to D3.
 
-In addition, "Datasets/TestGraph.txt" is the example that appears in our paper. 
-
 If you want to use other datasets, please copy them into "Datasets/".
 
 ## Generate Queries
@@ -32,10 +30,10 @@ After executions, generated query files are stored as "Datasets/GenQuery/{Graph 
 
 ## Execute VUG
 
-Usage of VUG main program in "TSPG/":
+Usage of VUG main program in "STPG/":
 
 ```C++
-cd TSPG/
+cd STPG/
 make clean
 make
 ./Run <Graph File> <Query File>
