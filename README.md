@@ -1,5 +1,7 @@
 # VUG-for-TSPG
 
+Link of the paper: [Efficient Temporal Simple Path Graph Generation](https://ieeexplore.ieee.org/abstract/document/11112863)
+
 1.'Appendix.pdf' contains the appendix of our paper, which includes some proofs that were omitted from the paper due to space constraints.
 
 2.'VUG_code' contains the source codes of our paper and sample datasets and queries. 
