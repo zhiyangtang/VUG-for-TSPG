@@ -28,6 +28,8 @@ cd ../../
 - Graph File: input graph filename in "Datasets/"
 - Number of queries: the number of random queries
 
+You can edit the parameter θ in the code.
+
 After executions, generated query files are stored as "Datasets/GenQuery/{Graph File}.query"
 
 ## Execute VUG
